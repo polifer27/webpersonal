@@ -1,6 +1,6 @@
 
 Link a la página:
-https://webpersonal.pythonanywhere.com/
+https://paginapersonal.pythonanywhere.com/
 
 
 # webpersonal
