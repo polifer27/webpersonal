@@ -103,7 +103,8 @@ img::-moz-selection{
         -ms-transform:translate3d(0,0,0);
         -o-transform:translate3d(0,0,0);
         transform:translate3d(0,0,0);
-        -webkit-backface-visibility:hidden}
+        -webkit-backface-visibility:hidden
+}
     #mainNav.is-fixed{position:fixed;top:-67px;
         -webkit-transition:-webkit-transform .2s;
         -moz-transition:-moz-transform .2s;
