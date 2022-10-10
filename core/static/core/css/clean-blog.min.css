@@ -139,7 +139,17 @@ header.masthead .overlay{
     height:100%;
     width:100%;
     background-color:#212529;
-    opacity:.5}
+    opacity:.5
+     }
+.header1 .masthead1 .overlar1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    /*background-color:#212529;*/
+    /*opacity:.5*/
+}     
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{padding:200px 0 150px;color:#fff}
 @media only screen and (min-width:768px){header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{padding:200px 0}}header.masthead .page-heading,header.masthead .site-heading{text-align:center}header.masthead .page-heading h1,header.masthead .site-heading 
 h1{
