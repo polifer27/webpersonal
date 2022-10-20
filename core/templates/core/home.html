@@ -3,9 +3,9 @@
 {% block title %}Portada{% endblock %}
 <!--Aca me quedo medio Frankenstein porque a la foto de portada le tuve que sacar
 la opacidad y el color de fondo pero a las demás fotos se los deje -->
-<!--{% block background %}{% load static%}{% static 'core/img/home-bg.jpg' %}{% endblock %}-->
 
-<header class="header1 masthead1" style="background-image: url('core/img/home-bg.jpg')">
+{% block background %}{% load static%}{% static 'core/img/escritorio.jpg' %}{% endblock %}
+<header class="header1 masthead1">
     <div class="overlay1"></div>
     <div class="container">
       <div class="row">
