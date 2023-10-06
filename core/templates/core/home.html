@@ -1,10 +1,18 @@
 {% extends 'core/base.html' %}
 
 {% block title %}Portada{% endblock %}
+<!--Aca me quedo medio Frankenstein porque a la foto de portada le tuve que sacar
+la opacidad y el color de fondo pero a las demás fotos se los deje -->
 
-{% block background %}{% load static%}{% static 'core/img/home-bg.jpg' %}{% endblock %}
-
+{% block background %}{% load static%}{% static 'core/img/escritorio.jpg' %}{% endblock %}
+<header class="header1 masthead1">
+    <div class="overlay1"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
 {% block headers %}
 <h1>Pablo Fernández</h1>
-<span class="subheading">Licenciado en Robótica y Programador</span>
+<h2 class="">Licenciado en Robótica y Programador</h2>
+<!--<span class="subheading">Licenciado en Robótica y Programador</span>-->
 {% endblock %}
